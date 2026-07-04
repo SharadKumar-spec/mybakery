@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bakery-900: #3b2314;
+  --color-bakery-800: #55331d;
+  --color-bakery-700: #6b4226;
+  --color-bakery-600: #8b5a33;
+  --color-bakery-500: #ab7342;
+  --color-bakery-400: #c99360;
+  --color-bakery-300: #d9b48f;
+  --color-bakery-200: #e8d0b3;
+  --color-bakery-100: #f5eadc;
+  --color-bakery-50: #fff5e1;
+  --color-brand: var(--color-bakery-700);
+  --color-brand-light: var(--color-bakery-300);
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  @apply bg-[#fdfbf7] text-slate-800 antialiased;
+}
